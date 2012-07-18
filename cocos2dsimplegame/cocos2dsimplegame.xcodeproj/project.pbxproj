@@ -49,12 +49,6 @@
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
-		891FD0FD15B0A2380071EFB5 /* astonaughtsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD0FC15B0A2380071EFB5 /* astonaughtsmall.png */; };
-		891FD10615B0A5AD0071EFB5 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD10515B0A5AD0071EFB5 /* background1.png */; };
-		891FD13A15B0AAFF0071EFB5 /* icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD13915B0AAFF0071EFB5 /* icon-1.png */; };
-		891FD16515B0AD680071EFB5 /* cursorsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD16415B0AD680071EFB5 /* cursorsmall.png */; };
-		891FD17C15B0AEBB0071EFB5 /* asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD17B15B0AEBB0071EFB5 /* asteroid.png */; };
-		891FD18A15B0AF830071EFB5 /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD18915B0AF830071EFB5 /* Target.png */; };
 		891FD20A15B491890071EFB5 /* asteroid-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD20915B491890071EFB5 /* asteroid-1.png */; };
 		891FD20E15B491B60071EFB5 /* asteroid-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 891FD20D15B491B60071EFB5 /* asteroid-2.png */; };
 		891FD26215B499A40071EFB5 /* untitled.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 891FD26115B499A40071EFB5 /* untitled.mp3 */; };
@@ -304,12 +298,6 @@
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		891FD0FC15B0A2380071EFB5 /* astonaughtsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astonaughtsmall.png; path = ../../Downloads/astonaughtsmall.png; sourceTree = SOURCE_ROOT; };
-		891FD10515B0A5AD0071EFB5 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background1.png; path = ../../Downloads/background1.png; sourceTree = SOURCE_ROOT; };
-		891FD13915B0AAFF0071EFB5 /* icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-1.png"; path = "../../Downloads/icon-1.png"; sourceTree = SOURCE_ROOT; };
-		891FD16415B0AD680071EFB5 /* cursorsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cursorsmall.png; path = ../../Downloads/cursorsmall.png; sourceTree = SOURCE_ROOT; };
-		891FD17B15B0AEBB0071EFB5 /* asteroid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = asteroid.png; path = ../../Downloads/asteroid.png; sourceTree = SOURCE_ROOT; };
-		891FD18915B0AF830071EFB5 /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = ../../Downloads/Target.png; sourceTree = SOURCE_ROOT; };
 		891FD20915B491890071EFB5 /* asteroid-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asteroid-1.png"; sourceTree = "<group>"; };
 		891FD20D15B491B60071EFB5 /* asteroid-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "asteroid-2.png"; sourceTree = "<group>"; };
 		891FD26115B499A40071EFB5 /* untitled.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = untitled.mp3; sourceTree = "<group>"; };
@@ -679,15 +667,9 @@
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
 				E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */,
 				891FD26115B499A40071EFB5 /* untitled.mp3 */,
-				891FD13915B0AAFF0071EFB5 /* icon-1.png */,
 				E02BB500126CA50F006E46A2 /* Icon-Small.png */,
-				891FD18915B0AF830071EFB5 /* Target.png */,
 				E02BB501126CA50F006E46A2 /* Icon-Small-50.png */,
-				891FD17B15B0AEBB0071EFB5 /* asteroid.png */,
 				E02BB502126CA50F006E46A2 /* Icon-72.png */,
-				891FD0FC15B0A2380071EFB5 /* astonaughtsmall.png */,
-				891FD16415B0AD680071EFB5 /* cursorsmall.png */,
-				891FD10515B0A5AD0071EFB5 /* background1.png */,
 				50F414EC1069373D002A0D5E /* Default.png */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
 				50F414EE1069373D002A0D5E /* Icon.png */,
@@ -1130,12 +1112,6 @@
 				E02BB507126CA50F006E46A2 /* Icon-Small-50.png in Resources */,
 				E02BB508126CA50F006E46A2 /* Icon-72.png in Resources */,
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
-				891FD0FD15B0A2380071EFB5 /* astonaughtsmall.png in Resources */,
-				891FD10615B0A5AD0071EFB5 /* background1.png in Resources */,
-				891FD13A15B0AAFF0071EFB5 /* icon-1.png in Resources */,
-				891FD16515B0AD680071EFB5 /* cursorsmall.png in Resources */,
-				891FD17C15B0AEBB0071EFB5 /* asteroid.png in Resources */,
-				891FD18A15B0AF830071EFB5 /* Target.png in Resources */,
 				891FD20A15B491890071EFB5 /* asteroid-1.png in Resources */,
 				891FD20E15B491B60071EFB5 /* asteroid-2.png in Resources */,
 				891FD26215B499A40071EFB5 /* untitled.mp3 in Resources */,
