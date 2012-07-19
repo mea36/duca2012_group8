@@ -49,10 +49,7 @@
 		50F414F01069373D002A0D5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EC1069373D002A0D5E /* Default.png */; };
 		50F414F11069373D002A0D5E /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414ED1069373D002A0D5E /* fps_images.png */; };
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
-		89ED8D5A15B7258600E2ACF5 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D5915B7258600E2ACF5 /* star.png */; };
-		89ED8D5C15B7258C00E2ACF5 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D5B15B7258C00E2ACF5 /* background1.png */; };
-		89ED8D5E15B7259100E2ACF5 /* asteroid-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D5D15B7259100E2ACF5 /* asteroid-2.png */; };
-		89ED8D6015B7259600E2ACF5 /* starships-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D5F15B7259600E2ACF5 /* starships-1.png */; };
+		89BA015715B87B1D0053873C /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 89BA015515B87B1D0053873C /* star.png */; };
 		89ED8D9915B73BCD00E2ACF5 /* starships01.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9315B73BCD00E2ACF5 /* starships01.png */; };
 		89ED8D9A15B73BCD00E2ACF5 /* starships02.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9415B73BCD00E2ACF5 /* starships02.png */; };
 		89ED8D9B15B73BCD00E2ACF5 /* starships03.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9515B73BCD00E2ACF5 /* starships03.png */; };
@@ -304,10 +301,7 @@
 		50F414ED1069373D002A0D5E /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fps_images.png; sourceTree = "<group>"; };
 		50F414EE1069373D002A0D5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89ED8D5915B7258600E2ACF5 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../../Desktop/Project/star.png; sourceTree = SOURCE_ROOT; };
-		89ED8D5B15B7258C00E2ACF5 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background1.png; path = ../../Desktop/Project/background1.png; sourceTree = SOURCE_ROOT; };
-		89ED8D5D15B7259100E2ACF5 /* asteroid-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "asteroid-2.png"; path = "../../Desktop/Project/asteroid-2.png"; sourceTree = SOURCE_ROOT; };
-		89ED8D5F15B7259600E2ACF5 /* starships-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "starships-1.png"; path = "../../Desktop/Project/starships-1.png"; sourceTree = SOURCE_ROOT; };
+		89BA015515B87B1D0053873C /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		89ED8D9315B73BCD00E2ACF5 /* starships01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships01.png; sourceTree = "<group>"; };
 		89ED8D9415B73BCD00E2ACF5 /* starships02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships02.png; sourceTree = "<group>"; };
 		89ED8D9515B73BCD00E2ACF5 /* starships03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships03.png; sourceTree = "<group>"; };
@@ -671,6 +665,7 @@
 		50F414EB1069373D002A0D5E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				89BA015515B87B1D0053873C /* star.png */,
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
 				E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */,
@@ -683,11 +678,7 @@
 				89ED8D9615B73BCD00E2ACF5 /* starships04.png */,
 				89ED8D9715B73BCD00E2ACF5 /* starships05.png */,
 				89ED8D9815B73BCD00E2ACF5 /* starships06.png */,
-				89ED8D5B15B7258C00E2ACF5 /* background1.png */,
-				89ED8D5D15B7259100E2ACF5 /* asteroid-2.png */,
 				E02BB502126CA50F006E46A2 /* Icon-72.png */,
-				89ED8D5F15B7259600E2ACF5 /* starships-1.png */,
-				89ED8D5915B7258600E2ACF5 /* star.png */,
 				50F414EC1069373D002A0D5E /* Default.png */,
 				50F414ED1069373D002A0D5E /* fps_images.png */,
 				50F414EE1069373D002A0D5E /* Icon.png */,
@@ -1130,10 +1121,6 @@
 				E02BB507126CA50F006E46A2 /* Icon-Small-50.png in Resources */,
 				E02BB508126CA50F006E46A2 /* Icon-72.png in Resources */,
 				E02BB763126CC1E0006E46A2 /* iTunesArtwork in Resources */,
-				89ED8D5A15B7258600E2ACF5 /* star.png in Resources */,
-				89ED8D5C15B7258C00E2ACF5 /* background1.png in Resources */,
-				89ED8D5E15B7259100E2ACF5 /* asteroid-2.png in Resources */,
-				89ED8D6015B7259600E2ACF5 /* starships-1.png in Resources */,
 				89ED8D9915B73BCD00E2ACF5 /* starships01.png in Resources */,
 				89ED8D9A15B73BCD00E2ACF5 /* starships02.png in Resources */,
 				89ED8D9B15B73BCD00E2ACF5 /* starships03.png in Resources */,
@@ -1141,6 +1128,7 @@
 				89ED8D9D15B73BCD00E2ACF5 /* starships05.png in Resources */,
 				89ED8D9E15B73BCD00E2ACF5 /* starships06.png in Resources */,
 				89ED8E8115B76E2700E2ACF5 /* saucer.png in Resources */,
+				89BA015715B87B1D0053873C /* star.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

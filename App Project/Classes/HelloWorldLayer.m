@@ -85,7 +85,7 @@
 }
 -(void)addASTERIOD {
 	
-	CCSprite *target = [CCSprite spriteWithFile:@"asteroid-2.png"
+	CCSprite *target = [CCSprite spriteWithFile:@"asteroid-1.png"
 										   rect:CGRectMake(0, 0, 75, 75)];
 	//determine where to spawn the target along the Y axis
 	CGSize winSize = [[CCDirector sharedDirector] winSize];
