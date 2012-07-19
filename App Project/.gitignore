@@ -13,5 +13,4 @@ build/*
 xcuserdata
 profile
 *.moved-aside
-
-App Project/.DS_Store
+DerivedData
