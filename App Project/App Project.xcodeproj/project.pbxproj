@@ -51,6 +51,7 @@
 		50F414F21069373D002A0D5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50F414EE1069373D002A0D5E /* Icon.png */; };
 		8934037D15B87BAA00F334F1 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934037C15B87BAA00F334F1 /* star.png */; };
 		8934037F15B87BB300F334F1 /* asteroid-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8934037E15B87BB300F334F1 /* asteroid-2.png */; };
+		893404F415B9899700F334F1 /* random.aif in Resources */ = {isa = PBXBuildFile; fileRef = 893404F315B9899700F334F1 /* random.aif */; };
 		89ED8D9915B73BCD00E2ACF5 /* starships01.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9315B73BCD00E2ACF5 /* starships01.png */; };
 		89ED8D9A15B73BCD00E2ACF5 /* starships02.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9415B73BCD00E2ACF5 /* starships02.png */; };
 		89ED8D9B15B73BCD00E2ACF5 /* starships03.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ED8D9515B73BCD00E2ACF5 /* starships03.png */; };
@@ -304,6 +305,7 @@
 		50F414EF1069373D002A0D5E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8934037C15B87BAA00F334F1 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		8934037E15B87BB300F334F1 /* asteroid-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "asteroid-2.png"; path = "../../../Desktop/Project/asteroid-2.png"; sourceTree = SOURCE_ROOT; };
+		893404F315B9899700F334F1 /* random.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = random.aif; path = ../../../Desktop/Project/random.aif; sourceTree = SOURCE_ROOT; };
 		89ED8D9315B73BCD00E2ACF5 /* starships01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships01.png; sourceTree = "<group>"; };
 		89ED8D9415B73BCD00E2ACF5 /* starships02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships02.png; sourceTree = "<group>"; };
 		89ED8D9515B73BCD00E2ACF5 /* starships03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starships03.png; sourceTree = "<group>"; };
@@ -670,6 +672,7 @@
 				E02BB762126CC1E0006E46A2 /* iTunesArtwork */,
 				E02BB4FE126CA50F006E46A2 /* Icon@2x.png */,
 				8934037C15B87BAA00F334F1 /* star.png */,
+				893404F315B9899700F334F1 /* random.aif */,
 				E02BB4FF126CA50F006E46A2 /* Icon-Small@2x.png */,
 				E02BB500126CA50F006E46A2 /* Icon-Small.png */,
 				E02BB501126CA50F006E46A2 /* Icon-Small-50.png */,
@@ -1133,6 +1136,7 @@
 				89ED8E8115B76E2700E2ACF5 /* saucer.png in Resources */,
 				8934037D15B87BAA00F334F1 /* star.png in Resources */,
 				8934037F15B87BB300F334F1 /* asteroid-2.png in Resources */,
+				893404F415B9899700F334F1 /* random.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
