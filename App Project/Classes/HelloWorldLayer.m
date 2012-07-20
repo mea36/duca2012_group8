@@ -9,6 +9,9 @@
 
 // Import the interfaces
 #import "HelloWorldLayer.h"
+#import "cocos2d.h"
+#import "SimpleAudioEngine.h"
+
 
 // HelloWorldLayer implementation
 @implementation HelloWorldLayer
@@ -51,21 +54,24 @@
 	[starshipsglow startAnimating];
 }
 */
+	
+
+
 -(void)addStar {
 	
-	CCSprite *target2 = [CCSprite spriteWithFile:@"star.png"
+	CCSprite *target = [CCSprite spriteWithFile:@"star.png"
 										   rect:CGRectMake(0, 0, 75, 75)];
 	//determine where to spawn the target along the Y axis
 	CGSize winSize = [[CCDirector sharedDirector] winSize];
-	int minY = target2.contentSize.height/2;
-	int maxY = winSize.height - target2.contentSize.height/2;
+	int minY = target.contentSize.height/2;
+	int maxY = winSize.height - target.contentSize.height/2;
 	int rangeY = maxY - minY; 
 	int actualY = (arc4random() % rangeY) + minY;
 	
 	//Create the target slightly off-screen alng the right edge,
 	//and along a random poition along the  axis as calculated above
-	target2.position = ccp(winSize.width + (target2.contentSize.width/2), actualY);
-	[self addChild:target2];
+	target.position = ccp(winSize.width + (target.contentSize.width/2), actualY);
+	[self addChild:target];
 	
 	//Determine speed of the target
 	int minDuration = 0.0;
@@ -75,12 +81,11 @@
 	
 	//Create the actions
 	id actionMove = [CCMoveTo actionWithDuration:actualDuration
-										position:ccp(-target2.contentSize.width/2, actualY)];
+										position:ccp(-target.contentSize.width/2, actualY)];
 	id actionMoveDone = [CCCallFuncN actionWithTarget:self
 											 selector:@selector(spriteMoveFinished:)];
-	[target2 runAction:[CCSequence actions:actionMove, actionMoveDone, nil]];
+	[target runAction:[CCSequence actions:actionMove, actionMoveDone, nil]];
 	
-
 
 }
 -(void)addASTERIOD {
@@ -126,7 +131,8 @@
 		[self addChild:player];
 		
 		[self schedule:@selector(gameLogic:) interval:1.2];
-	
+
+		[[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"random.aif"];
 	}
 	return self;
 }
