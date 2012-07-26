@@ -1,0 +1,15 @@
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '*' token
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:13: warning: cannot find interface declaration for 'MyManager'
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:13: error: no declaration of property 'starsCollected' found in the interface
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m: In function '+[MyManager sharedManager]':
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:18: error: 'sharedMyManager' undeclared (first use in this function)
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:18: error: (Each undeclared identifier is reported only once
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:18: error: for each function it appears in.)
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:19: error: no super class declared in @interface for 'MyManager'
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:22: warning: control reaches end of non-void function
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m: In function '-[MyManager init]':
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:42: error: no super class declared in @interface for 'MyManager'
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:44: error: 'SScore' undeclared (first use in this function)
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m: In function '-[MyManager dealloc]':
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:50: error: 'SScore' undeclared (first use in this function)
+/Users/DUCA/Desktop/Cocos2DSimpleGame 2 copy/Classes/MyManager.m:51: error: no super class declared in @interface for 'MyManager'
