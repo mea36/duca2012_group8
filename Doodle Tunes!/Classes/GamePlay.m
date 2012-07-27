@@ -159,12 +159,20 @@ enum  {
 		_projectiles = [[NSMutableArray alloc] init];
 		
 		//Another Try of Scrolling
-		space1 = [CCSprite spriteWithFile:@"WAYBETTERbg.png"];
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+            space1 = [CCSprite spriteWithFile:@"ipad.png"];
+        else
+            space1 = [CCSprite spriteWithFile:@"WAYBETTERbg1.png"];
+
+
 		[space1 setPosition:ccp(size.width / 2, 160)];
 		[space1.textureAtlas.texture setAntiAliasTexParameters];
 		[self addChild:space1];
-		
-		space2 = [CCSprite spriteWithFile:@"WAYBETTERbg.png"];
+        if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+            space2 = [CCSprite spriteWithFile:@"ipad.png"];
+        else
+            space2 = [CCSprite spriteWithFile:@"WAYBETTERbg1.png"];
+
 		[space2 setPosition:ccp(size.width + 240, 160)];
 		[space2.textureAtlas.texture setAntiAliasTexParameters];
 		[self addChild:space2];
